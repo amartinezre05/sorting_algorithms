@@ -27,7 +27,6 @@ size_t partition(int *array, ssize_t low, ssize_t hi, size_t size)
 			i++;
 			if (i != j)
 			{
-				printf("pivot: %d, iterador: %ld, j: %ld, \n", pivot, i, j);
 				swap = array[i];
 				array[i] = array[j];
 				array[j] = swap;
